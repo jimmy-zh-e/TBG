@@ -1,29 +1,31 @@
-# Foobar
+# TBG Inventory
 
-Foobar is a Python library for dealing with word pluralization.
+TBG Inventory is a Python library for dealing with item list for text-based adventure game.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Choose the original version or the digital arrangement version to download and then add it to the Python Code.
 
 ```bash
-pip install foobar
+Add one of the code to your Python Code.
 ```
 
 ## Usage
 
 ```python
-import foobar
+Weapon = ['knife', 'shotgun', 'pistol','sniper rifle','Rocket Launcher']
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Weapon.append('sword') #Add Weapon
+print(f"\n You pick up sword, now you have {Weapon} in the Inventory.")
+#Put something into Inventory
+Weapon.insert(0, 'grenade') #Put grenade at the first position Inventory
+print(f"\n You pick up a grenade, now you have {Weapon} in the Inventory.")
+Armor.insert(2, 'trash') #Put grenade at the third position Inventory
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+This Python Code is edited by myself based on the knowledge in the book, and the user can change the code at will. If there is a better or simpler way to complete this function, please let me know and I will make improvements.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+None
